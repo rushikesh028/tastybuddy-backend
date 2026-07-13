@@ -20,3 +20,15 @@ Before you begin, ensure you have the following installed:
 ```bash
 git clone [https://github.com/rushikesh028/tastybuddy-backend.git](https://github.com/rushikesh028/tastybuddy-backend.git)
 cd tastybuddy-backend
+
+
+tastybuddy-backend/
+├── .mvn/                # Maven Wrapper files
+├── src/
+│   ├── main/
+│   │   ├── java/        # Java source files (Controllers, Services, Repositories, Models)
+│   │   └── resources/   # Application configuration (application.properties)
+│   └── test/            # Unit and integration tests
+├── mvnw                 # Maven wrapper script for Linux/macOS
+├── mvnw.cmd             # Maven wrapper script for Windows
+└── pom.xml              # Maven project object model dependencies
