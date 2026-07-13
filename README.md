@@ -32,3 +32,23 @@ tastybuddy-backend/
 ├── mvnw                 # Maven wrapper script for Linux/macOS
 ├── mvnw.cmd             # Maven wrapper script for Windows
 └── pom.xml              # Maven project object model dependencies
+
+
+## 🔧 Configuration & Environment
+
+The application relies on standard Spring configurations. Before running the service, ensure you have:
+*   Configured your database credentials in `src/main/resources/application.properties`.
+*   Verified that port `8080` (or your configured custom port) is available.
+
+## 🤝 Contributing
+
+Contributions are welcome! If you find a bug, have an optimization idea, or want to request a new feature:
+1. Fork the repository.
+2. Create a feature branch (`git checkout -b feature/AmazingFeature`).
+3. Commit your changes (`git commit -m 'Add some AmazingFeature'`).
+4. Push to the branch (`git push origin feature/AmazingFeature`).
+5. Open a Pull Request.
+
+## 📄 License
+
+This project is licensed under the MIT License - see the LICENSE file for details.
